@@ -1,16 +1,147 @@
-<h1>Impressum</h1Y>
 
-<p>**Angaben gemäß § 5 DDG**</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum | Niklas Wörner</title>
 
-<p>
-Niklas Wörner
-Herrnhuter Straße 11
-63549 Ronneburg
-Deutschland
-</p>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<h2>**Kontakt**</h2>
-E-Mail: [niklas.woerner2011@gmail.com](mailto:niklas.woerner2011@gmail.com)
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-<h2>**TikTok:**</h2>
-<p>[@niklaswrn auf TikTok](https://www.tiktok.com/@niklaswrn?_r=1&_t=ZG-9AfbmJb9yfQ&utm_source=chatgpt.com)</p>
+    .impressum {
+      width: 100%;
+      max-width: 600px;
+      padding: 40px;
+      background: rgba(30, 41, 59, 0.9);
+      border: 1px solid #334155;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 2.4rem;
+      color: #ffffff;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      margin-bottom: 35px;
+      font-size: 0.95rem;
+    }
+
+    section {
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid #334155;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 0;
+      margin-bottom: 14px;
+      color: #38bdf8;
+    }
+
+    p {
+      line-height: 1.8;
+      margin: 0;
+      color: #cbd5e1;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: #7dd3fc;
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: #64748b;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 20px 12px;
+      }
+
+      .impressum {
+        padding: 26px 22px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="impressum">
+    <h1>Impressum</h1>
+    <p class="subtitle">Angaben gemäß § 5 DDG</p>
+
+    <section>
+      <h2>Angaben zum Betreiber</h2>
+      <p>
+        Niklas Wörner<br>
+        Herrnhuter Straße 11<br>
+        63549 Ronneburg<br>
+        Deutschland
+      </p>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p>
+        E-Mail:
+        <a href="mailto:niklas.woerner2011@gmail.com">
+          niklas.woerner2011@gmail.com
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Social Media</h2>
+      <p>
+        TikTok:
+        <a
+          href="https://www.tiktok.com/@niklaswrn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @niklaswrn auf TikTok ↗
+        </a>
+      </p>
+    </section>
+
+    <div class="footer">
+      © Niklas Wörner
+    </div>
+  </main>
+</body>
+</html>
